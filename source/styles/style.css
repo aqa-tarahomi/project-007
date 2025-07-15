@@ -41,7 +41,7 @@ body {
 }
 .offcanvas {
     width: 100% !important;
-    background-color: #222222f1;
+    background-color: rgba(33, 33, 33, 0.95)
 }
 
 .active {

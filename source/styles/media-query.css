@@ -30,7 +30,7 @@
         margin-top: 10px;
     }
     .section-title-text h1{
-        font-size: 2.6rem;
+        font-size: 2.1rem;
     }
 
 
@@ -46,6 +46,9 @@
     width: 100% !important;
     	justify-content: space-evenly !important;
 
+}
+.navbar-nav{
+    margin: 0 30px !important;
 }
 }
 
