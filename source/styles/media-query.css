@@ -18,11 +18,11 @@
     order: 1 !important;
 }
 .container-fluid {
-	width: 95%;
+	width: 98%;
 }
     .navbar-nav {
         border: 1px solid #424242;
-        height: 100%;
+        height: 10%;
     }
     .nav-item{
         margin-left: auto !important ;
@@ -49,6 +49,15 @@
 }
 .navbar-nav{
     margin: 0 30px !important;
+}
+.landing-image{
+	margin-top: 25% ;
+}
+.landing-text{
+	margin-top: 0% !important;
+}
+.nav-button-section{
+    margin-top: 25px;
 }
 }
 

@@ -1,6 +1,12 @@
 :root {
 	--primary-color: #18D26E;
-	--secondary-color: ;
+	--node-js: #44883e;
+	--html:#ff6c36;
+	--css:#00bfff;
+	--bootstrap: #d300d3;
+	--js: #f7e018;
+	--py:#5282a1;
+
 }
 
 * {
@@ -18,7 +24,7 @@ body {
 	background-size: 1%;
 	margin-left: auto;
 	background-color: #121212;
-	width: 99%;
+	width: 100%;
 }
 
 .landing-backgrond-image {
@@ -91,6 +97,10 @@ hr {
 	align-items: end;
 	/* margin-top: 200px; */
 }
+.section-title{
+	margin-top: 140px !important;
+	margin-bottom: 100px !important;
+}
 
 .section-title-text h1 {
 	position: absolute;
@@ -104,12 +114,12 @@ hr {
 }
 
 .container-fluid {
-	width: 85%;
+	width: 95%;
 }
 
 .about-image {
 	border-radius: 10px;
-	border: 1px solid #18D26E;
+	border: 1px solid var(--primary-color);
 	box-shadow: 0px 0px 20px hsla(148, 79%, 46%, 0.5);
 	object-fit: cover;
 }
@@ -163,25 +173,25 @@ hr {
 
 .swiper-slide .fa-html5:hover,
 .services-card:hover .fa-html5 {
-	color: #ff6c36;
+	color: var(--html);
 }
 
 .swiper-slide .fa-css3-alt:hover,
 .services-card:hover .fa-css3-alt {
-	color: #00bfff;
+	color: var(--css);
 }
 
 .swiper-slide .fa-square-js:hover,
 .services-card:hover .fa-square-js {
-	color: #f7e018;
+	color: var(--js);
 }
 
 .swiper-slide .fa-node-js:hover {
-	color: #44883e;
+	color: var(--node-js);
 }
 
 .swiper-slide .fa-bootstrap:hover {
-	color: #d300d3;
+	color: var(--bootstrap);
 }
 
 .swiper-slide .fa-php:hover,
@@ -211,23 +221,23 @@ hr {
 }
 
 .html5-title {
-	color: #ff6c36;
+	color: var(--html);
 }
 
 .css3-title {
-	color: #00bfff;
+	color: var(--css);
 }
 
 .js-title {
-	color: #f7e018;
+	color: var(--js);
 }
 
 .node-title {
-	color: #44883e;
+	color: var(--node-js);
 }
 
 .bootstrap-title {
-	color: #d300d3;
+	color: var(--bootstrap);
 }
 
 .php-title {
@@ -298,29 +308,30 @@ hr {
 
 }
 .html-card{
-	border: 1px solid #ff6c36;
+	border: 1px solid var(--html);
 	box-shadow: 0px 0px 20px 1px rgba(255, 109, 56, 0.5);
 }
 .css-card{
-	border: 1px solid #00bfff;
+	border: 1px solid var(--css);
 	box-shadow: 0px 0px 20px 1px rgba(0, 191, 255, 0.5);
 }
 .js-card{
-	border: 1px solid #f7e018;
+	border: 1px solid var(--js);
 	box-shadow: 0px 0px 20px 1px hsla(54, 93%, 53%, 0.5);
 }
 
 .bootstrap-card{
-		border: 1px solid #d300d3;
+		border: 1px solid var(--bootstrap);
 	box-shadow: 0px 0px 20px 1px hsla(300, 100%, 41%, 0.5);
 }
 .nodejs-card{
-	border: 1px solid #44883e;
+	border: 1px solid var(--node-js);
 	box-shadow: 0px 0px 20px 1px hsla(115, 37%, 39%, 0.5) ;
 }
 
 .progress-card{
 	width: 48% ;
+	margin-top: 60px;
 }
 footer{
 	background-color: #222222;
@@ -331,4 +342,130 @@ footer{
 footer hr{
 	width: 90%;
 	margin: 0 auto;
+}
+.landing-image{
+	margin-top: 15% ;
+}
+.landing-text{
+	margin-top: 15%;
+}
+.card{
+	margin-bottom: 20px;
+	padding:  12px;
+	border-radius: 15px;
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    margin-top: 15px;
+	direction: rtl	;
+}
+
+button.learn-more {
+    width: 11rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    -webkit-transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    -webkit-transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    right: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    left: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #000000;
+    border-left: 0.125rem solid #000000;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+button.learn-more .button-text {
+    -webkit-transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    transition: all 0.5s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 1.85rem 0 0;
+    color: ghostwhite;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle{
+    display:block !important;
+    width: 100% !important;
+}
+button:hover .circle .icon.arrow {
+    background: #000000;
+    -webkit-transform: translate(-1rem, 0) ;
+        -ms-transform: translate(-1rem, 0) ;
+            transform: translate(-1rem, 0) ;
+}
+button:hover .button-text{
+	color: black;
+}
+.nodejs-card button.learn-more .circle{
+	background: var(--node-js);
+
+}
+.bootstrap-card button.learn-more .circle{
+	background: var(--bootstrap);
+}
+.css-card button.learn-more .circle{
+	background-color: var(--css);
+}
+.html-card button.learn-more .circle{
+	background-color: var(--html);
+}
+.py-card button.learn-more .circle{
+	background-color: var(--py);
+}
+.js-card button.learn-more .circle{
+	background-color: var(--js);
 }
