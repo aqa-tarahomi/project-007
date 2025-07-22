@@ -1,7 +1,7 @@
 @media (max-width:768px) {
     body{
-        background-size: 4%;
-        width: 96% !important;
+        background-size: 0%;
+        width: 100% !important;
     }
 	.skill-cards .card{
 	width: 100%;
@@ -22,7 +22,7 @@
 }
     .navbar-nav {
         border: 1px solid #424242;
-        height: 10%;
+        height: 90%;
     }
     .nav-item{
         margin-left: auto !important ;
@@ -58,6 +58,10 @@
 }
 .nav-button-section{
     margin-top: 25px;
+}
+.section-title{
+	margin-top: 50px !important;
+	margin-bottom: 30px !important;
 }
 }
 

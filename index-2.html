@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* HERO SECTION STYLES */
+.hero {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1 1 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero-text li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p, .hero-text li {
+    font-size: 1rem;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+}
+
+</style>
+<body>
+    <!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Transforming Ideas Into Reality</h1>
+      <p>
+        At [Your Company Name], we deliver innovative and high-quality digital solutions
+        that empower businesses to thrive in a fast-paced environment.
+      </p>
+      <ul>
+        <li>✅ Innovative, user-focused designs</li>
+        <li>✅ Tailored solutions for diverse needs</li>
+        <li>✅ Expert, passionate team</li>
+        <li>✅ Committed to sustainability and ethics</li>
+        <li>✅ Your partner in digital transformation</li>
+      </ul>
+    </div>
+    <div class="hero-image">
+      <img src="source/gallery/absolute cinema.png" alt="Office workspace" />
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
