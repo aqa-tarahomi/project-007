@@ -63,6 +63,9 @@
 	margin-top: 50px !important;
 	margin-bottom: 30px !important;
 }
+.contact-card{
+    order: 2 !important;
+}
 }
 
 
