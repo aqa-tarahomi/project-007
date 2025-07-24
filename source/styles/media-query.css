@@ -75,6 +75,15 @@
 .portfolio-text-footer{
     order: 3 !important;
 }
+.portfolio-card-right .circle {
+  bottom: 98%;
+}
+.portfolio-card-left .circle{
+  bottom: 99%;
+}
+.portfolio-title-section{
+  margin-bottom: 100px !important;
+}
 }
 
 
