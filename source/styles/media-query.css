@@ -66,6 +66,15 @@
 .contact-card{
     order: 2 !important;
 }
+.portfolio-image{
+    order: 1 !important;
+}
+.portfolio-text {
+    order: 2 !important;
+}
+.portfolio-text-footer{
+    order: 3 !important;
+}
 }
 
 

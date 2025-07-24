@@ -571,3 +571,58 @@ input:focus ~ .highlight {
         transform: translateY(-22px);
     }
   }
+
+.portfolio-card-right .circle {
+  font-weight: bold;
+  border-radius: 50%;
+  background: radial-gradient(circle, #121212 53%, var(--primary-color) 53%);  
+	color: #ffffff;
+  text-align: center;
+  height: 40px !important;
+  width: 40px !important;
+  line-height: 40px;
+  bottom: 97%;
+  left: -1%;
+}
+.portfolio-card-left .circle{
+  font-weight: bold;
+  border-radius: 50%;
+  background: radial-gradient(circle, #121212 53%, var(--primary-color) 53%);  
+	color: #ffffff;
+  text-align: center;
+  height: 40px !important;
+  width: 40px !important;
+  line-height: 40px;
+  bottom: 98%;
+  right: -1%;
+}
+
+.text-bold{
+	font-weight: 700;
+}
+.portfolio-card-right{
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-top: 3px solid var(--primary-color);
+  border-right: 3px solid var(--primary-color);
+  border-top-right-radius: 15px;
+}
+.portfolio-card-left{
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-top: 3px solid var(--primary-color);
+  border-left: 3px solid var(--primary-color);
+  border-top-left-radius: 15px;
+}
+
+.portfolio-image{
+    order: 2 !important;
+}
+.portfolio-text {
+    order: 1 !important;
+}
+.portfolio-text-footer{
+    order: 3 !important;
+}
