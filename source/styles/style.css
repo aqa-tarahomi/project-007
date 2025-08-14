@@ -1,5 +1,6 @@
 :root {
-	--primary-color: #18D26E;
+	--primary-color: #70e000;
+  --primary-shadow-color:#70e00080;
 	--node-js: #44883e;
 	--html:#ff6c36;
 	--css:#00bfff;
@@ -64,7 +65,7 @@ body {
 	width: 31px;
 	height: 31px;
 	padding: 0 !important;
-	box-shadow: 0px 0px 20px rgba(24, 210, 111, 0.5);
+	box-shadow: 0px 0px 20px var(--primary-shadow-color);
 	
 }
 
@@ -123,7 +124,7 @@ hr {
 .about-image {
 	border-radius: 10px;
 	border: 1px solid var(--primary-color);
-	box-shadow: 0px 0px 20px hsla(148, 79%, 46%, 0.5);
+	box-shadow:0 0 20px 1px var(--primary-shadow-color);
 	object-fit: cover;
 }
 
@@ -142,7 +143,7 @@ hr {
 	background-color: #000000;
 	border-radius: 100%;
 	color: var(--primary-color);
-	box-shadow: 0 0 20px hsla(148, 79%, 46%, 0.5);
+	box-shadow:0 0 20px 1px var(--primary-shadow-color);
 	text-align: center;
 	align-content: center;
 	font-size: 24px;
@@ -287,16 +288,6 @@ hr {
 .progress-text p {
     /* margin: 0 !important; */
 }
-
-.progress-bar{
-    background-color: var(--primary-color);
-    box-shadow: 0 0 20px hsla(148, 79%, 46%, 0.5);
-}
-.progress{
-    box-shadow: 0 0 7px rgba(24, 210, 111, 0.5);
-    border: 1px solid rgba(24, 210, 111, 0.5);
-
-}
 .skill-cards{
 	display: flex;
 	justify-content: space-between;
@@ -335,8 +326,8 @@ hr {
 }
 
 .progress-card{
-	width: 48% ;
-	margin-top: 60px;
+	width: 100% ;
+	/* margin-top: 60px; */
 }
 footer{
 	background-color: #222222;
@@ -555,7 +546,7 @@ input:focus ~ .highlight {
 }
 .contact-card{
 	border: 1px solid var(--primary-color) !important;
-	box-shadow: 0 0 20px  #18d26f81
+	box-shadow: 0 0 20px  var(--primary-shadow-color);
 
 }
 .contact-image {
@@ -626,4 +617,23 @@ input:focus ~ .highlight {
 }
 .portfolio-text-footer{
     order: 3 !important;
+}
+
+.bootstrap-card .progress-bar{
+  background-color: var(--bootstrap);
+}
+.html-card .progress-bar{
+  background-color: var(--html);
+}
+.css-card .progress-bar{
+  background-color: var(--css);
+}
+.nodejs-card .progress-bar{
+  background-color: var(--node-js);
+}
+.js-card .progress-bar{
+  background-color: var(--js);
+}
+.py-card .progress-bar{
+  background-color: var(--py);
 }
