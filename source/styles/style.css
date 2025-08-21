@@ -1,6 +1,6 @@
 :root {
-	--primary-color: #70e000;
-  --primary-shadow-color:#70e00080;
+	--primary-color: #0059FF;
+  --primary-shadow-color:hsla(219, 100%, 50%, 0.5);
 	--node-js: #44883e;
 	--html:#ff6c36;
 	--css:#00bfff;
@@ -22,7 +22,7 @@ body {
 	background-image: url(../gallery/vs-code2.png);
 	background-repeat: repeat-y;
 	background-position: top left;
-	background-size: 1%;
+	background-size: 1.5%;
 	margin-left: auto;
 	background-color: #121212;
 	width: 100%;
@@ -31,6 +31,9 @@ body {
 .primary-text{
   color: var(--primary-color);
 }
+.main-text{
+  text-shadow: 0 0 20px rgba(248, 248, 255, 0.64);
+}
 .landing-backgrond-image {
 	background: url(../gallery/background-2.png )center/cover no-repeat fixed;
 	height: 100vh;
@@ -38,6 +41,7 @@ body {
 
 .text-highlight {
 	color: var(--primary-color);
+  text-shadow:  0 0px 20px var(--primary-color);
 }
 
 .underline-highlight {
@@ -55,8 +59,10 @@ body {
 }
 
 .active {
-	font-weight: 700;
+	font-weight: 600;
 	text-decoration: underline solid 2px var(--primary-color);
+  text-shadow: 0 0 20px rgba(248, 248, 255, 0.1);
+
 }
 
 .nav-button {
@@ -76,6 +82,7 @@ body {
 
 .nav-start-text h5 {
 	color: var(--primary-color);
+  text-shadow: 0 0 20px var(--primary-color);
 }
 
 .section-title-circle {
@@ -108,13 +115,13 @@ hr {
 
 .section-title-text h1 {
 	position: absolute;
-	opacity: .25;
+	opacity: .2;
 	font-size: 4rem;
 	font-weight: 100 !important;
 }
 
 .section-title-text h3 {
-	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  text-shadow:0px 0px 20px rgb(255, 255, 255);
 }
 
 .container-fluid {
@@ -277,16 +284,12 @@ hr {
 }
 .py-card {
 	border:1px solid #5282a1 ;
-	box-shadow: 0px 0px 20px 1px hsla(204, 33%, 48%, 0.5);
+	box-shadow: 0px 0px 30px 1px rgba(82, 131, 163, 0.5);
 }
 
 .progress-text{
     display: flex;
     align-items: flex-end;
-    /* justify-content: space-between; */
-}
-.progress-text p {
-    /* margin: 0 !important; */
 }
 .skill-cards{
 	display: flex;
@@ -305,24 +308,24 @@ hr {
 }
 .html-card{
 	border: 1px solid var(--html);
-	box-shadow: 0px 0px 20px 1px rgba(255, 109, 56, 0.5);
+	box-shadow: 0px 0px 30px 1px rgba(255, 109, 56, 0.5);
 }
 .css-card{
 	border: 1px solid var(--css);
-	box-shadow: 0px 0px 20px 1px rgba(0, 191, 255, 0.5);
+	box-shadow: 0px 0px 30px 1px rgba(0, 191, 255, 0.5);
 }
 .js-card{
 	border: 1px solid var(--js);
-	box-shadow: 0px 0px 20px 1px hsla(54, 93%, 53%, 0.5);
+	box-shadow: 0px 0px 30px 1px hsla(54, 93%, 53%, 0.5);
 }
 
 .bootstrap-card{
 		border: 1px solid var(--bootstrap);
-	box-shadow: 0px 0px 20px 1px hsla(300, 100%, 41%, 0.5);
+	box-shadow: 0px 0px 30px 1px hsla(300, 100%, 41%, 0.5);
 }
 .nodejs-card{
 	border: 1px solid var(--node-js);
-	box-shadow: 0px 0px 20px 1px hsla(115, 37%, 39%, 0.5) ;
+	box-shadow: 0px 0px 30px 1px hsla(115, 37%, 39%, 0.5) ;
 }
 
 .progress-card{
@@ -564,7 +567,7 @@ input:focus ~ .highlight {
     }
   }
 
-.portfolio-card-right .circle {
+.portfolio-card-right .portfolio-circle {
   font-weight: bold;
   border-radius: 50%;
   background: radial-gradient(circle, #121212 53%, var(--primary-color) 53%);  
@@ -576,7 +579,7 @@ input:focus ~ .highlight {
   bottom: 97%;
   left: -1%;
 }
-.portfolio-card-left .circle{
+.portfolio-card-left .portfolio-circle{
   font-weight: bold;
   border-radius: 50%;
   background: radial-gradient(circle, #121212 53%, var(--primary-color) 53%);  
