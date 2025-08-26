@@ -30,7 +30,7 @@
         margin-top: 10px;
     }
     .section-title-text h1{
-        font-size: 2.1rem;
+        font-size: 2.8rem;
     }
 
 
@@ -38,13 +38,14 @@
 	height: 55px;
     width: 55px;
 	font-size: 20px;
+    line-height: 55px;
 }
 .progress-card{
     width: 100%;
 }
 .about-me-icon-section{
     width: 100% !important;
-    	justify-content: space-evenly !important;
+    justify-content: space-evenly !important;
 
 }
 .navbar-nav{
@@ -83,6 +84,9 @@
 }
 .portfolio-title-section{
   margin-bottom: 100px !important;
+}
+.about-me-introduction-text{
+    padding: 0 !important;
 }
 }
 

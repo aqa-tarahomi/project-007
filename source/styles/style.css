@@ -1,6 +1,6 @@
 :root {
 	--primary-color: #0059FF;
-  --primary-shadow-color:hsla(219, 100%, 50%, 0.5);
+  --primary-shadow-color:hsla(219, 100%, 50%, 0.6);
 	--node-js: #44883e;
 	--html:#ff6c36;
 	--css:#00bfff;
@@ -16,7 +16,9 @@
 	box-sizing: border-box;
 	list-style-type: none;
 }
-
+p{
+  font-size: 18px;
+}
 body {
 	scroll-behavior: smooth;
 	background-image: url(../gallery/vs-code2.png);
@@ -27,12 +29,18 @@ body {
 	background-color: #121212;
 	width: 100%;
   font-weight: 200 !important;
+  font-family: "Jersey 25", sans-serif;
+}
+
+.nav-item{
+  font-size: 19px;
 }
 .primary-text{
   color: var(--primary-color);
 }
+
 .main-text{
-  text-shadow: 0 0 20px rgba(248, 248, 255, 0.64);
+  text-shadow: 0 0 20px rgba(248, 248, 255, 0.3);
 }
 .landing-backgrond-image {
 	background: url(../gallery/background-2.png )center/cover no-repeat fixed;
@@ -41,7 +49,7 @@ body {
 
 .text-highlight {
 	color: var(--primary-color);
-  text-shadow:  0 0px 20px var(--primary-color);
+  text-shadow:  0 0px 20px var(--primary-shadow-color);
 }
 
 .underline-highlight {
@@ -59,7 +67,6 @@ body {
 }
 
 .active {
-	font-weight: 600;
 	text-decoration: underline solid 2px var(--primary-color);
   text-shadow: 0 0 20px rgba(248, 248, 255, 0.1);
 
@@ -82,7 +89,7 @@ body {
 
 .nav-start-text h5 {
 	color: var(--primary-color);
-  text-shadow: 0 0 20px var(--primary-color);
+  text-shadow: 0 0 15px var(--primary-shadow-color);
 }
 
 .section-title-circle {
@@ -116,7 +123,7 @@ hr {
 .section-title-text h1 {
 	position: absolute;
 	opacity: .2;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	font-weight: 100 !important;
 }
 
@@ -125,7 +132,7 @@ hr {
 }
 
 .container-fluid {
-	width: 85%;
+	width: 80%;
 }
 
 .about-image {
@@ -136,7 +143,7 @@ hr {
 }
 
 .my-info-text {
-	font-size: 18px;
+	font-size: 20px;
 }
 .about-me-icon-section{
 	display: flex;
@@ -152,7 +159,8 @@ hr {
 	color: var(--primary-color);
 	box-shadow:0 0 20px 1px var(--primary-shadow-color);
 	text-align: center;
-	align-content: center;
+	/* align-content: center; */
+  line-height: 60px;
 	font-size: 24px;
 	transition: all .3s;
 	border: 2px solid var(--primary-color);
@@ -639,4 +647,7 @@ input:focus ~ .highlight {
 }
 .py-card .progress-bar{
   background-color: var(--py);
+}
+.portfolio-image{
+  border-radius: 10px;
 }
