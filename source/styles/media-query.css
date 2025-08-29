@@ -76,10 +76,10 @@
 .portfolio-text-footer{
     order: 3 !important;
 }
-.portfolio-card-right .circle {
+.portfolio-card-right .portfolio-circle {
   bottom: 98%;
 }
-.portfolio-card-left .circle{
+.portfolio-card-left .portfolio-circle{
   bottom: 99%;
 }
 .portfolio-title-section{
@@ -87,6 +87,9 @@
 }
 .about-me-introduction-text{
     padding: 0 !important;
+}
+.footer-card h5 {
+    font-size: 1rem;
 }
 }
 

@@ -1,6 +1,6 @@
 :root {
-	--primary-color: #0059FF;
-  --primary-shadow-color:hsla(219, 100%, 50%, 0.6);
+	--primary-color: #008cff;
+  --primary-shadow-color:hsla(207, 100%, 50%, 0.75);
 	--node-js: #44883e;
 	--html:#ff6c36;
 	--css:#00bfff;
@@ -138,7 +138,7 @@ hr {
 .about-image {
 	border-radius: 10px;
 	border: 1px solid var(--primary-color);
-	box-shadow:0 0 20px 1px var(--primary-shadow-color);
+	box-shadow:0 0 13px  var(--primary-shadow-color);
 	object-fit: cover;
 }
 
