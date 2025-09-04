@@ -651,3 +651,7 @@ input:focus ~ .highlight {
 .portfolio-image{
   border-radius: 10px;
 }
+.slider-image{
+  border-radius: 10px;
+  border: 3px solid var(--primary-color);
+}
