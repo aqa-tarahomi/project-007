@@ -19,6 +19,7 @@
 
        const swiper2 = new Swiper('.mymainSwiper', {
       slidesPerView: 1,
+      spaceBetween: 0,
       loop: true,
       effect: "fade",
       

@@ -26,7 +26,7 @@ body {
 	background-position: top left;
 	background-size: 1.5%;
 	margin-left: auto;
-	background-color: #121212;
+	background-color: #131313;
 	width: 100%;
   font-weight: 200 !important;
   font-family: "Jersey 25", sans-serif;
@@ -43,7 +43,7 @@ body {
   text-shadow: 0 0 20px rgba(248, 248, 255, 0.3);
 }
 .landing-backgrond-image {
-	background: url(../gallery/background-2.png )center/cover no-repeat fixed;
+	background: url(../gallery/wallpapersden.com_dark-minimal-mountains-at-night_3840x2160.jpg)center/cover no-repeat fixed;
 	height: 100vh;
 }
 
